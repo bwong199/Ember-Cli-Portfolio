@@ -1,5 +1,9 @@
 # Portfolio
 
+This is a mock portfolio page I made using Ember Cli. 3 key features of this site includes 1) a mobile friendly collapsable navbar 2) scroll-spy and 3) parallax-effect.  
+
+
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
