@@ -5,6 +5,12 @@ module.exports = function(environment) {
     modulePrefix: 'portfolio',
     environment: environment,
     baseURL: '/',
+    contentSecurityPolicy: {
+      'connect-src': "'self' *",
+      'script-src': "'self' *",
+      'font-src': "'self' *",
+      'style-src': "'self' *"
+    },
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
